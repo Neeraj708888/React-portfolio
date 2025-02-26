@@ -14,7 +14,7 @@ const Navbar = () => {
         </div>
         <div className='m-8 flex items-center justify-between gap-4 text-2xl'>
         <a 
-          href="https://www.linkedin.com/in/your-profile" 
+          href="www.linkedin.com/in/neeraj-kumar-9007ba258" 
           target="_blank" 
           rel="noopener noreferrer" 
           aria-label="LinkedIn"
@@ -38,7 +38,7 @@ const Navbar = () => {
         <FaWhatsapp/>
         </a>
         <a 
-          href="https://www.linkedin.com/in/your-profile" 
+          href="https://www.instagram.com/java_scriptcoder?igsh=MTI2ZnAyemVzdjk5ZA==" 
           target="_blank" 
           rel="noopener noreferrer" 
           aria-label="Instagram"
@@ -46,7 +46,7 @@ const Navbar = () => {
         <FaInstagram/>
         </a>
         <a 
-          href="https://www.linkedin.com/in/your-profile" 
+          href="https://www.facebook.com/neeraj.s.atbareilly?mibextid=ZbWKwL" 
           target="_blank" 
           rel="noopener noreferrer" 
           aria-label="Facebook"
