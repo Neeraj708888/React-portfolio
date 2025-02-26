@@ -74,7 +74,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Bisrakh Section-1 Gautambudh Nagar Greater Noida (UP) ",
+  address: "Bisrakh Sector-1 Gautambudh Nagar Greater Noida (UP) ",
   phoneNo: "+91 7088887210 ",
   email: "amck.sharma@gmail.com",
 };
