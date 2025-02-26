@@ -14,7 +14,7 @@ const Navbar = () => {
         </div>
         <div className='m-8 flex items-center justify-between gap-4 text-2xl'>
         <a 
-          href="www.linkedin.com/in/neeraj-kumar-9007ba258" 
+          href="https://www.linkedin.com/in/neeraj-kumar-9007ba258" 
           target="_blank" 
           rel="noopener noreferrer" 
           aria-label="LinkedIn"
