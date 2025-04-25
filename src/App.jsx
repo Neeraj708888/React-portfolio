@@ -6,7 +6,7 @@ import Technologies from './components/Technologies.';
 import Experiences from './components/Experiences';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-// https://bg.ibelick.com/
+import Resume from './components/Resume';
 
 const App = () => {
   return (
@@ -16,6 +16,7 @@ const App = () => {
     </div>
 
     <div className='container mx-auto px-8'>
+    <Resume/>
     <Navbar/>
     <Hero />
     <About />
