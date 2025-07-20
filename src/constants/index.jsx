@@ -11,9 +11,10 @@ export const QUALIFICATION = [
   {
     year: "2021 - 2023",
     course: "Master  in Computer Application (MCA)",
-    college: "KCMT- Khandelwal College of Management Science & Technology, Bareilly (UP) -243001",
+    college:
+      "KCMT- Khandelwal College of Management Science & Technology, Bareilly (UP) -243001",
     university: "AKTU- Abdul Kalam Technology University, Lucknow (UP)",
-    technologies: ["Javascript", "React.js", "Node.js", "mongoDB", "Tailwind"] 
+    technologies: ["Javascript", "React.js", "Node.js", "mongoDB", "Tailwind"],
     // company: "Google Inc.",
     // description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
   },
@@ -21,7 +22,8 @@ export const QUALIFICATION = [
     year: "2016 - 2019",
     course: "B.COM- Bachelor of Commerce",
     college: "Bareilly College, Bareilly (UP) -243001",
-    university: "MJPRU- Mahatma Jyotiba Phule Rohilkhand University Bareilly (UP)",
+    university:
+      "MJPRU- Mahatma Jyotiba Phule Rohilkhand University Bareilly (UP)",
     // description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
   },
   {
@@ -42,6 +44,39 @@ export const QUALIFICATION = [
   },
 ];
 
+export const EXPERIENCE = [
+  {
+    company: "SN Digitech Private Limited",
+    position: "MERN Developer",
+    location: "Noida, India",
+    web_link: "https://www.sndigitech.com/",
+    duration: [
+      { start: "May 19, 2023" },
+      { end: "Present" }
+    ],
+    description: `
+      Developed and maintained full-stack web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js).
+      Implemented RESTful APIs, JWT-based authentication, dynamic admin panels, and reusable component libraries.
+      Worked closely with UI/UX designers and integrated frontend with backend services.
+      Improved app performance and optimized MongoDB queries for large datasets.
+    `,
+    technologies: [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "JWT Auth",
+      "Axios",
+      "Git",
+    ],
+    website: "https://www.sndigitech.com", // Optional
+    logo: "/assets/logos/sndigitech.png",   // Optional
+  },
+  // You can add more experience entries below if needed
+];
+
 export const PROJECTS = [
   {
     title: "E-Commerce Website",
@@ -49,27 +84,119 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    details: {
+      links: {
+        web: "https://alicom-admin-pannel.netlify.app/login",
+        local: {
+          github: "",
+        },
+      },
+      media: {
+        video_link: "", // Optional video demo link
+        project_images: [
+          "image1.jpg",
+          "image2.jpg",
+          "image3.jpg",
+          "image4.jpg",
+        ],
+      },
+    },
   },
   {
-    title: "Task Management App",
-    image: project2,
+    title: "Nicki Macfarlane Admin",
+    image: project2, // Assuming this is imported correctly above
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+      "An application for managing tasks and projects, with features like task creation, assignment, role-based access control, and progress tracking.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    details: {
+      links: {
+        web: "https://alicom-admin-pannel.netlify.app/login",
+        local: {
+          github: "",
+        },
+      },
+      media: {
+        video_link: "", // Optional video demo link
+        project_images: [
+          "image1.jpg",
+          "image2.jpg",
+          "image3.jpg",
+          "image4.jpg",
+        ],
+      },
+    },
   },
   {
-    title: "Portfolio Website",
+    title: "BDRL Admin Pannel",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
+    details: {
+      links: {
+        web: "https://alicom-admin-pannel.netlify.app/login",
+        local: {
+          github: "",
+        },
+      },
+      media: {
+        video_link: "", // Optional video demo link
+        project_images: [
+          "image1.jpg",
+          "image2.jpg",
+          "image3.jpg",
+          "image4.jpg",
+        ],
+      },
+    },
   },
   {
-    title: "Blogging Platform",
+    title: "Guruji Admin Pannel",
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mongoDB"],
+    details: {
+      links: {
+        web: "https://alicom-admin-pannel.netlify.app/login",
+        local: {
+          github: "",
+        },
+      },
+      media: {
+        video_link: "", // Optional video demo link
+        project_images: [
+          "image1.jpg",
+          "image2.jpg",
+          "image3.jpg",
+          "image4.jpg",
+        ],
+      },
+    },
+  },
+  {
+    title: "Nicki Macfarlane Website",
+    image: project4,
+    description:
+      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+    technologies: ["HTML", "CSS", "Vue.js", "Express", "mongoDB"],
+    details: {
+      links: {
+        web: "https://alicom-admin-pannel.netlify.app/login",
+        local: {
+          github: "",
+        },
+      },
+      mmedia: {
+        video_link: "", // Optional video demo link
+        project_images: [
+          "image1.jpg",
+          "image2.jpg",
+          "image3.jpg",
+          "image4.jpg",
+        ],
+      },
+    },
   },
 ];
 

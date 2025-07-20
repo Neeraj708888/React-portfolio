@@ -3,7 +3,7 @@ import {motion} from "framer-motion";
 import { QUALIFICATION } from '../constants';
 
 
-const Experiences = () => {
+const Qualification = () => {
   return (
     <div className='border-b border-neutral-900 pb-4'>
     <motion.h2 
@@ -14,6 +14,8 @@ const Experiences = () => {
     <div>
       {QUALIFICATION.map((qualification, index)=>  (
         <div key={index} className='mb-8 flex flex-wrap lg:justify-center'>
+
+        {/* Left- Side */}
         <motion.div 
         whileInView={{opacity: 1, x: 0}}
         initial={{opacity: 0, x: -100}}
@@ -21,6 +23,8 @@ const Experiences = () => {
         className='w-full lg:w-1/4'>
           <p className='mb-2 text-sm text-neutral-400'>{qualification.year}</p>
         </motion.div>
+
+        {/* Right- Side */}
         <motion.div 
         whileInView={{opacity: 1, x: 0}}
         initial={{opacity: 0, x: 100}}
@@ -41,4 +45,4 @@ const Experiences = () => {
   )
 }
 
-export default Experiences;
+export default Qualification;
