@@ -49,11 +49,9 @@ export const EXPERIENCE = [
     company: "SN Digitech Private Limited",
     position: "MERN Developer",
     location: "Noida, India",
-    web_link: "https://www.sndigitech.com/",
-    duration: [
-      { start: "May 19, 2023" },
-      { end: "Present" }
-    ],
+    web_link: "www.sndigitech.com",
+    short_name: "SN Digitech",
+    duration: [{ start: "May 19, 2025" }, { end: "Present" }],
     description: `
       Developed and maintained full-stack web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js).
       Implemented RESTful APIs, JWT-based authentication, dynamic admin panels, and reusable component libraries.
@@ -71,84 +69,45 @@ export const EXPERIENCE = [
       "Axios",
       "Git",
     ],
-    website: "https://www.sndigitech.com", // Optional
-    logo: "/assets/logos/sndigitech.png",   // Optional
+    logo: "/assets/logos/sndigitech.png", // Optional
   },
-  // You can add more experience entries below if needed
+  {
+    company: "Railworld India Private Limited",
+    position: "Software Developer - Intern",
+    location: "Gurugram, Haryana",
+    duration: [{ start: "Dec 16, 2023" }, { end: "June 16, 2024" }],
+    description: `
+      Developed and maintained responsive web applications using React.js, ensuring seamless user experiences. Implemented RESTful APIs, JWT-based authentication, and efficient data flow management with reusable component libraries. Collaborated with UI/UX designers to integrate frontend features with backend services. Enhanced application performance and optimized database interactions for handling large datasets.
+    `,
+    technologies: ["React.js", "Redux Toolkit", "Tailwind CSS", "Axios", "Git"],
+  },
 ];
+
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-    details: {
-      links: {
-        web: "https://alicom-admin-pannel.netlify.app/login",
-        local: {
-          github: "",
-        },
-      },
-      media: {
-        video_link: "", // Optional video demo link
-        project_images: [
-          "image1.jpg",
-          "image2.jpg",
-          "image3.jpg",
-          "image4.jpg",
-        ],
-      },
-    },
-  },
-  {
-    title: "Nicki Macfarlane Admin",
+    title: "Nicki Macfarlane Admin Panel",
     image: project2, // Assuming this is imported correctly above
     description:
-      "An application for managing tasks and projects, with features like task creation, assignment, role-based access control, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-    details: {
-      links: {
-        web: "https://alicom-admin-pannel.netlify.app/login",
-        local: {
-          github: "",
-        },
-      },
-      media: {
-        video_link: "", // Optional video demo link
-        project_images: [
-          "image1.jpg",
-          "image2.jpg",
-          "image3.jpg",
-          "image4.jpg",
-        ],
-      },
+      "An application for managing Products and Accessories with Order-Management, with features like Product & Accessories creation, updation, get products with role-based access control, and progress tracking for order management.",
+    technologies: ["React JS", "Node JS", "MongoDB"],
+    links: ["https://alicom-admin-pannel.netlify.app/"],
+    media: {
+      video_link: "", // Optional video demo link
+      project_images: ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg"],
     },
   },
   {
-    title: "BDRL Admin Pannel",
+    title: "Portfolio",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
-    details: {
-      links: {
-        web: "https://alicom-admin-pannel.netlify.app/login",
-        local: {
-          github: "",
-        },
+    technologies: ["React", "Tailwind CSS"],
+    links: ["https://react-portfolio-neeraj.netlify.app/"],
+    media: {
+      video_link: "", // Optional video demo link
+      project_images: ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg"],
       },
-      media: {
-        video_link: "", // Optional video demo link
-        project_images: [
-          "image1.jpg",
-          "image2.jpg",
-          "image3.jpg",
-          "image4.jpg",
-        ],
-      },
-    },
   },
   {
     title: "Guruji Admin Pannel",
@@ -156,22 +115,10 @@ export const PROJECTS = [
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mongoDB"],
-    details: {
-      links: {
-        web: "https://alicom-admin-pannel.netlify.app/login",
-        local: {
-          github: "",
-        },
-      },
-      media: {
-        video_link: "", // Optional video demo link
-        project_images: [
-          "image1.jpg",
-          "image2.jpg",
-          "image3.jpg",
-          "image4.jpg",
-        ],
-      },
+    links: ["https://alicom-admin-pannel.netlify.app/"],
+    media: {
+      video_link: "", // Optional video demo link
+      project_images: ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg"],
     },
   },
   {
@@ -180,26 +127,25 @@ export const PROJECTS = [
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mongoDB"],
-    details: {
-      links: {
-        web: "https://alicom-admin-pannel.netlify.app/login",
-        local: {
-          github: "",
-        },
-      },
-      mmedia: {
-        video_link: "", // Optional video demo link
-        project_images: [
-          "image1.jpg",
-          "image2.jpg",
-          "image3.jpg",
-          "image4.jpg",
-        ],
-      },
+    links: ["https://alicom-admin-pannel.netlify.app/"],
+    media: {
+      video_link: "", // Optional video demo link
+      project_images: ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg"],
+    },
+  },
+  {
+    title: "Question Bank",
+    image: project1,
+    description:
+      "A fully functional with CRUD & features like questions and user authentication with JWT-Token.",
+    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    links: ["https://question-bank-frontend-navy.vercel.app/"],
+    media: {
+      video_link: "", // Optional video demo link
+      project_images: ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg"],
     },
   },
 ];
-
 export const CONTACT = {
   address: "Bisrakh Sector-1 Gautambudh Nagar Greater Noida (UP) ",
   phoneNo: "+91 7088887210 ",

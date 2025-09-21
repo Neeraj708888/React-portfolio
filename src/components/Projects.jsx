@@ -14,7 +14,7 @@ const Projects = () => {
       >
         Projects
       </motion.h2>
-      <div className="">
+      <div className="flex flex-col">
         {PROJECTS.map((project, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <motion.div
@@ -37,7 +37,27 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
-              <h6 className="mb-2 font-semibold">{project.title}</h6>
+
+              <div className="flex gap-2">
+                <span className="relative flex h-3 w-3 py-1.5">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
+                </span>
+                {project.links.map((item, id) => (
+                  <a 
+                  key={id}
+                  href={item  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-green-500 font-medium"
+                >
+                  Live
+                </a>
+                ))}{"-"}
+                
+                <h6 className="mb-2 font-semibold">{project.title}</h6>
+              </div>
+
               <p className="mb-4 text-neutral-400">{project.description}</p>
               {project.technologies.map((tech, index) => (
                 <span
@@ -48,50 +68,50 @@ const Projects = () => {
                 </span>
               ))}
             </motion.div>
-            <div className="flex flex-col ">
-            <div className="flex gap-2">
-              <span className="relative flex h-3 w-3 py-1.5">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
-              </span>
-              <a
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-green-500 font-medium"
-              >
-                Online
-              </a>
-            </div>
-            <div className="flex gap-2">
-              <span className="relative flex h-3 w-3 py-1.5">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
-              </span>
-              <a
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-green-500 font-medium"
-              >
-                Project Gallery
-              </a>
-            </div>
-            <div className="flex gap-2">
-              <span className="relative flex h-3 w-3 py-1.5">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
-              </span>
-              <a
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-green-500 font-medium"
-              >
-                Project Video
-              </a>
-            </div>
-            </div>
+            {/* <div className="flex flex-col ">
+              <div className="flex gap-2">
+                <span className="relative flex h-3 w-3 py-1.5">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
+                </span>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-green-500 font-medium"
+                >
+                  Online
+                </a>
+              </div>
+              <div className="flex gap-2">
+                <span className="relative flex h-3 w-3 py-1.5">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
+                </span>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-green-500 font-medium"
+                >
+                  Project Gallery
+                </a>
+              </div>
+              <div className="flex gap-2">
+                <span className="relative flex h-3 w-3 py-1.5">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
+                </span>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-green-500 font-medium"
+                >
+                  Project Video
+                </a>
+              </div>
+            </div> */}
           </div>
         ))}
       </div>

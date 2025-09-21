@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { EXPERIENCE } from '../constants';
+import { Link } from 'react-router-dom';
 
 const Experience = () => {
   return (
@@ -16,13 +17,13 @@ const Experience = () => {
 
       <div>
         {EXPERIENCE.map((experience, index) => (
-          <div key={index} className="mb-8 flex flex-col lg:flex-row lg:justify-center gap-4">
+          <div key={index} className="mb-8 flex flex-col lg:flex-row lg:justify-center gap-2">
             {/* LEFT: Info */}
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
-              className="w-full max-w-xl lg:w-3/4"
+              className="w-full max-w-xl lg:w-1/2"
             >
               <h6 className="mb-2 font-semibold">
                 {experience?.company} -{' '}
@@ -37,9 +38,8 @@ const Experience = () => {
                 </span>
               ))}
 
-              {EXPERIENCE.map((web_link, index) => (
-                <p className='text-blue-400 hover:underline hover:text-blue-600 mt-2' key={index}><a href={web_link.web_link}>SN Digitech Pvt. Ltd.</a></p>
-            ))}
+                <p className='text-blue-400 hover:underline hover:text-blue-600 mt-2'><a href={experience.web_link}>{experience.short_name}</a></p>
+           
             </motion.div>
             
 
@@ -48,11 +48,11 @@ const Experience = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
-              className="w-full lg:w-1/4 text-left lg:text-right"
+              className="w-full lg:w-3/4 text-left lg:text-right"
             >
-            {EXPERIENCE.map((experience, index) => (
+
                 <p key={index} className="text-sm text-neutral-400 text-start tracking-wide">{experience.description}</p>
-            ))}              
+               
             </motion.div>
           </div>
         ))}
