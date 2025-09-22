@@ -3,7 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 6 Month of hands-on experience, I have honed my skills in front-end technologies like HTML & HTML5, CSS & CSS3 with framework like Tailwind, React and Next.js, as well as back-end technologies like Node.js, JavaScript, and database connectivities are MongoDB as well as MySQL. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1 - Year of hands-on experience, I have honed my skills in front-end technologies like HTML & HTML5, CSS & CSS3 with framework like Tailwind, React and Next.js, as well as back-end technologies like Node.js, JavaScript, and database connectivities are MongoDB as well as MySQL. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 6 Month of professional experience, I have worked with a variety of technologies, including React, JavaScript, Node.js, Tailwind and MongoDB as well as MySQL databases. My journey in web development and full-stack developer or Mern Developer or Node JS Developer began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
@@ -77,7 +77,7 @@ export const EXPERIENCE = [
     location: "Gurugram, Haryana",
     duration: [{ start: "Dec 16, 2023" }, { end: "June 16, 2024" }],
     description: `
-      Developed and maintained responsive web applications using React.js, ensuring seamless user experiences. Implemented RESTful APIs, JWT-based authentication, and efficient data flow management with reusable component libraries. Collaborated with UI/UX designers to integrate frontend features with backend services. Enhanced application performance and optimized database interactions for handling large datasets.
+      Built and supported responsive web applications with React.js to deliver smooth user experiences. Integrated RESTful APIs, implemented JWT authentication, and managed data flow effectively through reusable components. Partnered with UI/UX teams to align frontend functionality with backend systems. Improved performance and fine-tuned database operations to efficiently handle large volumes of data.
     `,
     technologies: ["React.js", "Redux Toolkit", "Tailwind CSS", "Axios", "Git"],
   },
