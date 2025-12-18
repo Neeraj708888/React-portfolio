@@ -3,7 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1 - Year of hands-on experience, I have honed my skills in front-end technologies like HTML & HTML5, CSS & CSS3 with framework like Tailwind, React and Next.js, as well as back-end technologies like Node.js, JavaScript, and database connectivities are MongoDB as well as MySQL. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1 - Year of hands-on experience, I have honed my skills in front-end technologies like HTML & HTML5, CSS & CSS3 with framework like Tailwind, React.js and Next.js, as well as back-end technologies like Node.js, Express.js, JavaScript, and database connectivities are MongoDB as well as MySQL. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 6 Month of professional experience, I have worked with a variety of technologies, including React, JavaScript, Node.js, Tailwind and MongoDB as well as MySQL databases. My journey in web development and full-stack developer or Mern Developer or Node JS Developer began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
@@ -51,10 +51,10 @@ export const EXPERIENCE = [
     location: "Noida, India",
     web_link: "www.sndigitech.com",
     short_name: "SN Digitech",
-    duration: [{ start: "May 19, 2025" }, { end: "Present" }],
+    duration: [{ start: "Dec 19, 2024" }, { end: "Dec 19, 2025" }],
     description: `
       Developed and maintained full-stack web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js).
-      Implemented RESTful APIs, JWT-based authentication, dynamic admin panels, and reusable component libraries.
+      Implemented RESTful APIs, JWT-based authentication, Role Based Access Control - RBAC, Pagination, dynamic admin panels, and reusable component libraries.
       Worked closely with UI/UX designers and integrated frontend with backend services.
       Improved app performance and optimized MongoDB queries for large datasets.
     `,
@@ -65,7 +65,8 @@ export const EXPERIENCE = [
       "Node.js",
       "Redux Toolkit",
       "Tailwind CSS",
-      "JWT Auth",
+      "BootStrap",
+      "JSON Web Tokens (JWT)",
       "Axios",
       "Git",
     ],
@@ -89,7 +90,7 @@ export const PROJECTS = [
     title: "Nicki Macfarlane Admin Panel",
     image: project2, // Assuming this is imported correctly above
     description:
-      "An application for managing Products and Accessories with Order-Management, with features like Product & Accessories creation, updation, get products with role-based access control, and progress tracking for order management.",
+      "An application for managing Products and Accessories with Order-Management, with features like Product & Accessories creation, updation, get products with role-based access control, Pagination implemented for large dataset, and progress tracking for order management. Admin panel controls various aspects of the e-commerce platform, including product listings, inventory management, order processing, and user management. Built using MERN stack (MongoDB, Express.js, React.js, Node.js) with JWT-Token- Authentication and Authorization. Here, I integrated CRUD operations for products and accessories, implemented role-based access control to ensure secure access, and designed a user-friendly interface for efficient management.",
     technologies: ["React JS", "Node JS", "MongoDB"],
     links: ["https://alicom-admin-pannel.netlify.app/"],
     media: {
@@ -98,7 +99,19 @@ export const PROJECTS = [
     },
   },
   {
-    title: "Portfolio",
+    title: "SN Digitech Website",
+    image: project2, // Assuming this is imported correctly above
+    description:
+      "Integrated REST APIs into the SN Digitech website to enable dynamic data handling and seamless frontend–backend communication. Implemented secure API calls for fetching and managing content, handled authentication, error handling, and optimized data flow to improve performance and user experience. The integration enhanced the website's functionality, allowing for real-time updates and interactive features that improved user engagement and satisfaction.",
+    technologies: ["React JS", "Node JS", "MongoDB", "Context API, Axios-Library"],
+    links: ["https://www.sndigitech.com/"],
+    media: {
+      video_link: "", // Optional video demo link
+      project_images: ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg"],
+    },
+  },
+  {
+    title: "My Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
@@ -110,24 +123,24 @@ export const PROJECTS = [
       },
   },
   {
-    title: "Guruji Admin Pannel",
+    title: "Nicki Macfarlane Website",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mongoDB"],
-    links: ["https://alicom-admin-pannel.netlify.app/"],
+      "A UI/UX case study focused on designing a luxury fashion website that highlights elegance, craftsmanship, and brand storytelling. The design emphasizes clean layouts, strong visual hierarchy, and minimal navigation to enhance user experience and product discovery. Special attention was given to responsive design, accessibility, and performance to match premium brand expectations. Here, I contributed to the front-end development using React JS, Bootstrap, and CSS to bring the design to life.I implemented responsive layouts, interactive elements, and ensured cross-browser compatibility to create a seamless user experience across devices. I implemented features such as image carousels, product galleries, and contact forms to enhance user engagement. I integrated restful APIs to fetch product data and handle user inquiries effectively.",
+    technologies: ["React JS","Bootstrap", "CSS"],
+    links: ["https://www.nickimacfarlane.com/"],
     media: {
       video_link: "", // Optional video demo link
       project_images: ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg"],
     },
   },
   {
-    title: "Nicki Macfarlane Website",
+    title: "Photo Gallery Admin and Website",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mongoDB"],
-    links: ["https://alicom-admin-pannel.netlify.app/"],
+      "Developed a full-stack Photo Gallery web application with an Admin panel to manage image content efficiently. Admin can upload, update, delete photos and organize them into albums or categories. Implemented a responsive user interface for viewing images with search and filter functionality. Built using modern web technologies with secure backend APIs and database integration for scalable media management.",
+    technologies: ["MongoDB", "Express JS", "React JS","Node JS"],
+    links: ["https://neerajaarti-photo-gallery.netlify.app/"],
     media: {
       video_link: "", // Optional video demo link
       project_images: ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg"],
@@ -137,8 +150,8 @@ export const PROJECTS = [
     title: "Question Bank",
     image: project1,
     description:
-      "A fully functional with CRUD & features like questions and user authentication with JWT-Token.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional with CRUD & features like questions and user authentication with JWT-Token- Authentication and Authorization.",
+    technologies: ["React", "Node.js", "Express.js", "MongoDB"],
     links: ["https://question-bank-frontend-navy.vercel.app/"],
     media: {
       video_link: "", // Optional video demo link
