@@ -47,7 +47,7 @@ export const QUALIFICATION = [
 export const EXPERIENCE = [
   {
     company: "SN Digitech Private Limited",
-    position: "MERN Developer",
+    position: "MERN Stack Developer",
     location: "Noida, India",
     web_link: "www.sndigitech.com",
     short_name: "SN Digitech",
