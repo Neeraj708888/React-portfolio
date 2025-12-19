@@ -51,7 +51,7 @@ export const EXPERIENCE = [
     location: "Noida, India",
     web_link: "www.sndigitech.com",
     short_name: "SN Digitech",
-    duration: [{ start: "Dec 19, 2024" }, { end: "Dec 19, 2025" }],
+    duration: [{ start: "Dec 16, 2024" }, { end: "Dec 18, 2025" }],
     description: `
       Developed and maintained full-stack web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js).
       Implemented RESTful APIs, JWT-based authentication, Role Based Access Control - RBAC, Pagination, dynamic admin panels, and reusable component libraries.
@@ -139,7 +139,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "Developed a full-stack Photo Gallery web application with an Admin panel to manage image content efficiently. Admin can upload, update, delete photos and organize them into albums or categories. Implemented a responsive user interface for viewing images with search and filter functionality. Built using modern web technologies with secure backend APIs and database integration for scalable media management.",
-    technologies: ["MongoDB", "Express JS", "React JS","Node JS"],
+    technologies: ["MongoDB", "Express JS", "React JS","Node JS", "JSON-Web Token (JWT)"],
     links: ["https://neerajaarti-photo-gallery.netlify.app/"],
     media: {
       video_link: "", // Optional video demo link
