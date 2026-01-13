@@ -74,7 +74,7 @@ export const EXPERIENCE = [
   },
   {
     company: "Railworld India Private Limited",
-    position: "Software Developer - Intern",
+    position: "React Developer - Intern",
     location: "Gurugram, Haryana",
     duration: [{ start: "Dec 16, 2023" }, { end: "June 16, 2024" }],
     description: `
