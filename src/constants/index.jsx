@@ -139,7 +139,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "Developed a full-stack Photo Gallery web application with an Admin panel to manage image content efficiently. Admin can upload, update, delete photos and organize them into albums or categories. Implemented a responsive user interface for viewing images with search and filter functionality. Built using modern web technologies with secure backend APIs and database integration for scalable media management.",
-    technologies: ["MongoDB", "Express JS", "React JS", "Node JS", "JSON-Web Token (JWT)"],
+    technologies: ["MongoDB", "Express JS", "React JS", "Node JS", "JSON-Web Token (JWT)", "Cloudinary- Media Management Service"],
     links: ["https://photo-gallery-albums.netlify.app"],
     media: {
       video_link: "", // Optional video demo link
