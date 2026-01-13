@@ -3,7 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1 - Year of hands-on experience, I have honed my skills in front-end technologies like HTML & HTML5, CSS & CSS3 with framework like Tailwind, React.js and Next.js, as well as back-end technologies like Node.js, Express.js, JavaScript, and database connectivities are MongoDB as well as MySQL. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1 Year + of hands-on experience, I have honed my skills in front-end technologies like HTML & HTML5, CSS & CSS3 with framework like Tailwind, React.js and Next.js, as well as back-end technologies like Node.js, Express.js, JavaScript, and database connectivities are MongoDB as well as MySQL. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 6 Month of professional experience, I have worked with a variety of technologies, including React, JavaScript, Node.js, Tailwind and MongoDB as well as MySQL databases. My journey in web development and full-stack developer or Mern Developer or Node JS Developer began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
@@ -120,14 +120,14 @@ export const PROJECTS = [
     media: {
       video_link: "", // Optional video demo link
       project_images: ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg"],
-      },
+    },
   },
   {
     title: "Nicki Macfarlane Website",
     image: project4,
     description:
       "A UI/UX case study focused on designing a luxury fashion website that highlights elegance, craftsmanship, and brand storytelling. The design emphasizes clean layouts, strong visual hierarchy, and minimal navigation to enhance user experience and product discovery. Special attention was given to responsive design, accessibility, and performance to match premium brand expectations. Here, I contributed to the front-end development using React JS, Bootstrap, and CSS to bring the design to life.I implemented responsive layouts, interactive elements, and ensured cross-browser compatibility to create a seamless user experience across devices. I implemented features such as image carousels, product galleries, and contact forms to enhance user engagement. I integrated restful APIs to fetch product data and handle user inquiries effectively.",
-    technologies: ["React JS","Bootstrap", "CSS"],
+    technologies: ["React JS", "Bootstrap", "CSS"],
     links: ["https://www.nickimacfarlane.com/"],
     media: {
       video_link: "", // Optional video demo link
@@ -139,8 +139,8 @@ export const PROJECTS = [
     image: project4,
     description:
       "Developed a full-stack Photo Gallery web application with an Admin panel to manage image content efficiently. Admin can upload, update, delete photos and organize them into albums or categories. Implemented a responsive user interface for viewing images with search and filter functionality. Built using modern web technologies with secure backend APIs and database integration for scalable media management.",
-    technologies: ["MongoDB", "Express JS", "React JS","Node JS", "JSON-Web Token (JWT)"],
-    links: ["https://neerajaarti-photo-gallery.netlify.app/"],
+    technologies: ["MongoDB", "Express JS", "React JS", "Node JS", "JSON-Web Token (JWT)"],
+    links: ["https://photo-gallery-albums.netlify.app"],
     media: {
       video_link: "", // Optional video demo link
       project_images: ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg"],
