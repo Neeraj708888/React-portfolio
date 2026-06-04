@@ -1,11 +1,15 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/ananta.png";
+import project2 from "../assets/projects/nicki_1.png";
+import project3 from "../assets/projects/nicki_1.png";
+import project4 from "../assets/projects/portfolio.png";
+import project5 from "../assets/projects/nicki_website.png";
+import project6 from "../assets/projects/gallery_admin_panel.png";
+import project7 from "../assets/projects/question_bank.png";
+import project8 from "../assets/projects/gallery_admin_panel.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1 Year + of hands-on experience, I have honed my skills in front-end technologies like HTML & HTML5, CSS & CSS3 with framework like Tailwind, React.js and Next.js, as well as back-end technologies like Node.js, Express.js, JavaScript, and database connectivities are MongoDB as well as MySQL. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 Year + of hands-on experience, I have honed my skills in front-end technologies like HTML & HTML5, CSS & CSS3 with framework like Tailwind, React.js and Next.js, as well as back-end technologies like Node.js, Express.js, JavaScript, and database connectivities are MongoDB as well as MySQL. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 6 Month of professional experience, I have worked with a variety of technologies, including React, JavaScript, Node.js, Tailwind and MongoDB as well as MySQL databases. My journey in web development and full-stack developer or Mern Developer or Node JS Developer began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 2 Year+ of professional experience, I have worked with a variety of technologies, including React, Next.js, JavaScript, Node.js, Tailwind and MongoDB as well as MySQL databases. My journey in web development and full-stack developer or Mern Developer or Node JS Developer began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const QUALIFICATION = [
   {
@@ -87,7 +91,40 @@ export const EXPERIENCE = [
 
 export const PROJECTS = [
   {
-    title: "Nicki Macfarlane Admin Panel",
+    title: "Ananta Hospitality Website",
+    image: project1,
+    description:
+      `Built an AI-powered web application using OpenAI GPT-4o Mini and Authkey.io WhatsApp Chatbot API, featuring secure JWT Authentication, Role-Based Authorization, CRUD operations, webhook integration, and SEO optimization (Meta Tags, Schema Markup, Open Graph, Sitemap, and Canonical URLs) for enhanced search engine visibility and performance.
+
+      Key Features : 
+      1. AI-powered dynamic content generation using OpenAI GPT-4o Mini.
+      2. Authkey.io WhatsApp Chatbot integration via webhook architecture.
+      3. Secure JWT Token Authentication & Role-Based Authorization.
+      4. Complete CRUD operations for managing application data.
+      5. Responsive and user-friendly interface.
+      6. RESTful API integration for seamless communication between frontend and backend.
+      7. Scalable backend architecture with secure data handling.
+      
+      SEO Implementation :
+      1. Search Engine Optimized (SEO) architecture.
+      2. Dynamic Meta Titles and Meta Descriptions.
+      3. Open Graph (OG) Tags for social media sharing.
+      4. Structured Data (Schema Markup) implementation.
+      5. Canonical URLs to prevent duplicate content issues.
+      6. XML Sitemap generation.
+      7. Robots.txt optimization for search engine crawling.
+      8. Semantic HTML5 structure for improved indexing.
+      9. Optimized page performance and Core Web Vitals compliance.
+      `,
+    technologies: ["React JS", "Next JS", "Node.js", "Express.js", "MySQL", "OpenAI GPT-4o Mini", "Authkey.io WhatsApp Chatbot API"],
+    links: ["https://anantahospitality.com/"],
+    media: {
+      video_link: "", // Optional video demo link
+      project_images: ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg"],
+    },
+  },
+  {
+    title: "Admin Panel",
     image: project2, // Assuming this is imported correctly above
     description:
       "An application for managing Products and Accessories with Order-Management, with features like Product & Accessories creation, updation, get products with role-based access control, Pagination implemented for large dataset, and progress tracking for order management. Admin panel controls various aspects of the e-commerce platform, including product listings, inventory management, order processing, and user management. Built using MERN stack (MongoDB, Express.js, React.js, Node.js) with JWT-Token- Authentication and Authorization. Here, I integrated CRUD operations for products and accessories, implemented role-based access control to ensure secure access, and designed a user-friendly interface for efficient management.",
@@ -112,7 +149,7 @@ export const PROJECTS = [
   },
   {
     title: "My Portfolio Website",
-    image: project3,
+    image: project4,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwind CSS"],
@@ -124,7 +161,7 @@ export const PROJECTS = [
   },
   {
     title: "Nicki Macfarlane Website",
-    image: project4,
+    image: project5,
     description:
       "A UI/UX case study focused on designing a luxury fashion website that highlights elegance, craftsmanship, and brand storytelling. The design emphasizes clean layouts, strong visual hierarchy, and minimal navigation to enhance user experience and product discovery. Special attention was given to responsive design, accessibility, and performance to match premium brand expectations. Here, I contributed to the front-end development using React JS, Bootstrap, and CSS to bring the design to life.I implemented responsive layouts, interactive elements, and ensured cross-browser compatibility to create a seamless user experience across devices. I implemented features such as image carousels, product galleries, and contact forms to enhance user engagement. I integrated restful APIs to fetch product data and handle user inquiries effectively.",
     technologies: ["React JS", "Bootstrap", "CSS"],
@@ -136,7 +173,7 @@ export const PROJECTS = [
   },
   {
     title: "Photo Gallery Admin and Website",
-    image: project4,
+    image: project6,
     description:
       "Developed a full-stack Photo Gallery web application with an Admin panel to manage image content efficiently. Admin can upload, update, delete photos and organize them into albums or categories. Implemented a responsive user interface for viewing images with search and filter functionality. Built using modern web technologies with secure backend APIs and database integration for scalable media management.",
     technologies: ["MongoDB", "Express JS", "React JS", "Node JS", "JSON-Web Token (JWT)", "Cloudinary- Media Management Service"],
@@ -148,7 +185,7 @@ export const PROJECTS = [
   },
   {
     title: "Question Bank",
-    image: project1,
+    image: project7,
     description:
       "A fully functional with CRUD & features like questions and user authentication with JWT-Token- Authentication and Authorization.",
     technologies: ["React", "Node.js", "Express.js", "MongoDB"],
