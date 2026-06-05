@@ -19,7 +19,6 @@ const Experience = () => {
         <div className="h-1 w-52 rounded-full bg-gradient-to-r from-purple-600 via-pink-500 to-red-500"></div>
         <div className="h-1 w-36 rounded-full bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600"></div>
       </div>
-
       <div>
         {EXPERIENCE.map((experience, index) => (
           <div key={index} className="mb-8 flex flex-col lg:flex-row lg:justify-center gap-2">

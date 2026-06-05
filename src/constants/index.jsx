@@ -149,7 +149,7 @@ export const PROJECTS = [
       8. Semantic HTML5 structure for improved indexing.
       9. Optimized page performance and Core Web Vitals compliance.
       `,
-    technologies: ["React JS", "Next JS", "Node.js", "Express.js", "MySQL", "OpenAI GPT-4o Mini", "Authkey.io WhatsApp Chatbot API"],
+    technologies: ["Next JS", "Node.js", "Express.js", "MySQL", "OpenAI GPT-4o Mini", "Authkey.io WhatsApp Chatbot API"],
     links: ["https://anantahospitality.com/"],
     media: {
       video_link: "", // Optional video demo link
