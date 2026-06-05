@@ -50,6 +50,39 @@ export const QUALIFICATION = [
 
 export const EXPERIENCE = [
   {
+    company: "Ananta Group Private Limited",
+    position: "Web Developer",
+    location: "Delhi, India",
+    web_link: "www.anantagroup.co.in",
+    short_name: "Ananta Group",
+    duration: [{ start: "Jan 02, 2026" }, { end: "Working..." }],
+    description: `
+  Developed and maintained scalable full-stack web applications using React.js, Next.js, Node.js, Express.js, MySQL, and Supabase.
+  Designed secure RESTful APIs with JWT Authentication, Authorization, Tokens, and Role-Based Access Control (RBAC) for admin panels.
+  Built SEO-optimized Next.js websites with dynamic meta tags, Open Graph data, and admin-managed SEO configurations.
+  Integrated OpenAI GPT-4o Mini to generate AI-powered content and automate data-driven workflows.
+  Managed deployment, hosting, and production environments on Hostinger, ensuring performance, security, and reliability.
+  Developed reusable components, dashboard modules, notification systems, and business management tools.
+  Collaborated with cross-functional teams to integrate frontend applications with backend services and third-party APIs.
+  Optimized database structures, API performance, and application scalability for large-scale business requirements.
+`,
+    technologies: [
+      "Supabse",
+      "MySQL",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "Tailwind CSS",
+      "JSON Web Tokens (JWT)",
+      "Axios",
+      "Git",
+      "Hostinger- Web Hosting",
+      "OpenAI GPT-4o Mini",
+      "Authkey.io WhatsApp Chatbot API",
+    ],
+    logo: "/assets/anantagroup.png", // Optional
+  },
+  {
     company: "SN Digitech Private Limited",
     position: "MERN Stack Developer",
     location: "Noida, India",

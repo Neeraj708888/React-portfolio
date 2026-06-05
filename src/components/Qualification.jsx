@@ -1,46 +1,50 @@
 import React from 'react'
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 import { QUALIFICATION } from '../constants';
 
 
 const Qualification = () => {
   return (
     <div className='border-b border-neutral-900 pb-4'>
-    <motion.h2 
-    whileInView={{opacity: 1, y: 0}}
-    initial={{opacity: 0, y: -100}}
-    transition={{duration:0.5}}
-    className='my-20 text-center text-4xl'>Qualifications</motion.h2>
-    <div>
-      {QUALIFICATION.map((qualification, index)=>  (
-        <div key={index} className='mb-8 flex flex-wrap lg:justify-center'>
+      <motion.h2
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: -100 }}
+        transition={{ duration: 0.5 }}
+        className='mt-4 text-center text-4xl'>Qualifications</motion.h2>
+      <div className="flex flex-col items-center gap-2 mb-16 mt-3">
+        <div className="h-1 w-58 rounded-full bg-gradient-to-r from-purple-600 via-pink-500 to-red-500"></div>
+        <div className="h-1 w-38 rounded-full bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600"></div>
+      </div>
+      <div>
+        {QUALIFICATION.map((qualification, index) => (
+          <div key={index} className='mb-8 flex flex-wrap lg:justify-center'>
 
-        {/* Left- Side */}
-        <motion.div 
-        whileInView={{opacity: 1, x: 0}}
-        initial={{opacity: 0, x: -100}}
-        transition={{duration:  1}}
-        className='w-full lg:w-1/4'>
-          <p className='mb-2 text-sm text-neutral-400'>{qualification.year}</p>
-        </motion.div>
+            {/* Left- Side */}
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: 1 }}
+              className='w-full lg:w-1/4'>
+              <p className='mb-2 text-sm text-neutral-400'>{qualification.year}</p>
+            </motion.div>
 
-        {/* Right- Side */}
-        <motion.div 
-        whileInView={{opacity: 1, x: 0}}
-        initial={{opacity: 0, x: 100}}
-        transition={{duration: 1}}
-        className='w-full max-w-xl lg:w-3/4'>
-          <h6 className='mb-2 font-semibold'>
-            {qualification.course} -{" "}
-            <span className='text-sm text-purple-100'>{qualification.college}</span>
-          </h6>
-          <p className='mb-4 text-neutral-400'>{qualification.university}</p>
-          {qualification.technologies?.map((technology, index)=> (
-            <span key={index} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>{technology}</span>
-          ))}
-        </motion.div>
-      </div>))}
-    </div>
+            {/* Right- Side */}
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 100 }}
+              transition={{ duration: 1 }}
+              className='w-full max-w-xl lg:w-3/4'>
+              <h6 className='mb-2 font-semibold'>
+                {qualification.course} -{" "}
+                <span className='text-sm text-purple-100'>{qualification.college}</span>
+              </h6>
+              <p className='mb-4 text-neutral-400'>{qualification.university}</p>
+              {qualification.technologies?.map((technology, index) => (
+                <span key={index} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>{technology}</span>
+              ))}
+            </motion.div>
+          </div>))}
+      </div>
     </div>
   )
 }

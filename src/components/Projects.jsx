@@ -5,15 +5,19 @@ import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div className="border-b border-neutral-900 pb-4 mt-4">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
-        className="my-20  text-center  text-4xl"
+        className="text-center  text-4xl"
       >
         Projects
       </motion.h2>
+      <div className="flex flex-col items-center gap-2 mb-16 mt-3">
+        <div className="h-1 w-40 rounded-full bg-gradient-to-r from-purple-600 via-pink-500 to-red-500"></div>
+        <div className="h-1 w-26 rounded-full bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600"></div>
+      </div>
       <div className="flex flex-col">
         {PROJECTS.map((project, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
@@ -44,17 +48,17 @@ const Projects = () => {
                   <span className="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
                 </span>
                 {project.links.map((item, id) => (
-                  <a 
-                  key={id}
-                  href={item  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-green-500 font-medium"
-                >
-                  Live
-                </a>
+                  <a
+                    key={id}
+                    href={item}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-green-500 font-medium"
+                  >
+                    Live
+                  </a>
                 ))}{"-"}
-                
+
                 <h6 className="mb-2 font-semibold">{project.title}</h6>
               </div>
 

@@ -10,10 +10,15 @@ const Experience = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
-        className="my-20 text-center text-4xl"
+        className="mt-20 text-center text-4xl font-bold"
       >
         Experience
       </motion.h2>
+
+      <div className="flex flex-col items-center gap-2 mb-16 mt-3">
+        <div className="h-1 w-52 rounded-full bg-gradient-to-r from-purple-600 via-pink-500 to-red-500"></div>
+        <div className="h-1 w-36 rounded-full bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600"></div>
+      </div>
 
       <div>
         {EXPERIENCE.map((experience, index) => (
@@ -38,10 +43,10 @@ const Experience = () => {
                 </span>
               ))}
 
-                <p className='text-blue-400 hover:underline hover:text-blue-600 mt-2'><a href={experience.web_link}>{experience.short_name}</a></p>
-           
+              <p className='text-blue-400 hover:underline hover:text-blue-600 mt-2'><a href={experience.web_link}>{experience.short_name}</a></p>
+
             </motion.div>
-            
+
 
             {/* RIGHT: Year */}
             <motion.div
@@ -51,8 +56,8 @@ const Experience = () => {
               className="w-full lg:w-3/4 text-left lg:text-right"
             >
 
-                <p key={index} className="text-sm text-neutral-400 text-start tracking-wide">{experience.description}</p>
-               
+              <p key={index} className="text-sm text-neutral-400 text-start tracking-wide">{experience.description}</p>
+
             </motion.div>
           </div>
         ))}
