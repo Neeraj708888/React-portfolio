@@ -90,11 +90,12 @@ export const EXPERIENCE = [
     short_name: "SN Digitech",
     duration: [{ start: "Dec 16, 2024" }, { end: "Dec 18, 2025" }],
     description: `
-      Developed and maintained full-stack web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js).
-      Implemented RESTful APIs, JWT-based authentication, Role Based Access Control - RBAC, Pagination, dynamic admin panels, and reusable component libraries.
-      Worked closely with UI/UX designers and integrated frontend with backend services.
-      Improved app performance and optimized MongoDB queries for large datasets.
-    `,
+        Developed and maintained scalable full-stack web applications using the MERN stack (MongoDB, Express.js, React.js, and Node.js). Designed and implemented secure RESTful APIs with JWT-based Authentication and Authorization, ensuring protected access to application resources and user data. Built Role-Based Access Control (RBAC) systems to manage permissions across different user roles and administrative functions.
+
+        Implemented both client-side and server-side pagination to efficiently handle large datasets, reducing load times and improving overall user experience. Developed dynamic admin panels with complete CRUD functionality, reusable component architecture, and optimized state management for maintainable and scalable codebases.
+
+        Collaborated closely with UI/UX designers and backend teams to deliver responsive, user-centric interfaces while ensuring seamless integration between frontend and backend services. Optimized MongoDB queries, API performance, and database indexing strategies to improve application speed, scalability, and reliability in data-intensive environments.
+`,
     technologies: [
       "MongoDB",
       "Express.js",
@@ -111,12 +112,12 @@ export const EXPERIENCE = [
   },
   {
     company: "Railworld India Private Limited",
-    position: "React Developer - Intern",
+    position: "React Developer",
     location: "Gurugram, Haryana",
-    duration: [{ start: "Dec 16, 2023" }, { end: "June 16, 2024" }],
+    duration: [{ start: "Nov 16, 2023" }, { end: "Dec 10, 2024" }],
     description: `
-      Built and supported responsive web applications with React.js to deliver smooth user experiences. Integrated RESTful APIs, implemented JWT authentication, and managed data flow effectively through reusable components. Partnered with UI/UX teams to align frontend functionality with backend systems. Improved performance and fine-tuned database operations to efficiently handle large volumes of data.
-    `,
+      Built and maintained responsive web applications using React.js, delivering seamless and user-friendly experiences across devices. Integrated RESTful APIs, implemented JWT-based authentication and authorization, and managed application state efficiently using Context API. Developed reusable and scalable components, optimized client-side pagination for handling large datasets, and ensured smooth data flow throughout the application. Collaborated closely with UI/UX designers and backend developers to align frontend functionality with business requirements. Enhanced application performance, optimized database interactions, and improved overall system efficiency for high-volume data processing.
+`,
     technologies: ["React.js", "Redux Toolkit", "Tailwind CSS", "Axios", "Git"],
   },
 ];
